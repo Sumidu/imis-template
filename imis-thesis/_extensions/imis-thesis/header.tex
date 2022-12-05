@@ -1,0 +1,68 @@
+% Adaptation of the Thesis Template bei Philip Döbler shared under CC-BY 3.0
+
+% TODO: Add custom LaTeX header directives here
+
+
+%\documentclass[11pt,a4paper,ngerman]{scrreprt}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage[ngerman]{babel}
+%\usepackage{csquotes}\MakeOuterQuote{"}
+%\usepackage[24hr]{datetime}
+%\usepackage[skip=5pt,font=footnotesize]{caption}
+%\usepackage{tabularx}
+%\usepackage{booktabs}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{graphicx}
+%\usepackage{subfigure}
+%\usepackage{enumitem}
+%\usepackage[table]{xcolor}
+%\usepackage{xcolor}
+%\usepackage[bookmarksnumbered]{hyperref}
+%\hypersetup{pdfborder={0 0 0}, breaklinks=true}
+%\usepackage{bookmark}
+%\addtokomafont{disposition}{\rmfamily}
+%\usepackage[onehalfspacing]{setspace}
+
+% DISABLE TODO NOTES HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{todonotes}
+%\usepackage[disable]{todonotes}
+
+% HEADER & FOOTER DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+
+
+
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{\textcolor{gray}{\thepage}}
+
+\fancypagestyle{plain}{%
+    \renewcommand{\headrulewidth}{0pt}%
+    \fancyhf{}%
+    \fancyfoot[R]{\textcolor{gray}{\thepage}}%
+}
+
+
+%\usepackage[backend=biber,style=apa]{biblatex}
+%\addbibresource{references.bib}
+
+
+
+
+
+
+% DEF FOR COMMENTS, CAN BE DELETED %%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{comment}
+  {\par\medskip
+   \begingroup\color{olive}%
+   }
+ {\endgroup
+  \medskip}
+
+
+\pagenumbering{gobble}

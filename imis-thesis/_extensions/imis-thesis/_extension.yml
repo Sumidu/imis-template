@@ -1,0 +1,17 @@
+title: Imis-thesis
+author: André Calero Valdez
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      number-sections: true
+    pdf:
+      toc: true
+      colorlinks: true
+      template: imistemplate.tex
+      template-partials:
+        - "partials/title.tex"
+      include-in-header: header.tex
+      
+

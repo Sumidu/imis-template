@@ -1,0 +1,28 @@
+---
+title_de: Titel der Arbeit auf Deutsch
+title_en: Titel der Arbeit auf Englisch 
+format:
+  imis-thesis-pdf: 
+    keep-tex: false
+    language: english # or german
+author: Vorname Nachname
+matrikel: 123456
+advisor: Prof. Dr. Firstname Lastname
+support: Dr. Firstname Lastname, M.Sc.
+
+# remove if it not applies
+company-support: Company Abc GmbH
+date: last-modified
+bibliography: bibliography.bib
+kurzzusammenfassung: |
+  Der Abstract einer Abschlussarbeit sollte eine kurze Zusammenfassung enthalten, damit der Leser nach einigen Sätzen einen Eindruck davon bekommt, welches Thema bearbeitet wurde. Ein Abstract ist dabei kein \textquote{Teaser} sondern eher eine \textquote{Executive Summary}. Dieses Dokument dient als Vorlage und gleichzeitig als kleine Anleitung, um eine Abschlussarbeit mit \LaTeX{} zu erstellen. Um das Template für die eigene Abschlussarbeit zu verwenden, kann einfach der vorhandene Text gelöscht und eigener Text hinzugefügt werden. Das Dokument enthält keine ausführliche Erklärung für das Arbeiten mit \LaTeX{}, da es hierzu eine Vielzahl von Tutorials im Internet gibt. Stattdessen enthält es einige Tipps und Richtlinien. Der Quellcode ist ausführlich dokumentiert, damit es einfach ist das Template für die eigene Arbeit anzupassen.
+
+# Abstract can be omitted
+abstract: |
+  The abstract of a thesis should contain a short summary, so that the reader gets an impression of the topic after a few sentences. An abstract is not a \textquote{Teaser} but rather an \textquote{Executive Summary}. This document serves as a template and at the same time as a small guide to create a thesis with \LaTeX{}. To use the template for your own thesis, you can simply delete the existing text and add your own text. The document does not contain a detailed explanation of how to work with \LaTeX{}, as there are plenty of tutorials on the Internet for this purpose. Instead, it contains some tips and guidelines. The source code is documented in detail so that it is easy to adapt the template for your own work.
+
+---
+
+
+{{< include _content.qmd >}}
+

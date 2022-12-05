@@ -1,0 +1,50 @@
+
+% DEF FOR COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\titelMA}{$title_de$}
+\newcommand{\titelMAEnglish}{$title_en$}
+
+\newcommand{\authorMA}{$author$}
+
+\newcommand{\examinerMA}{$advisor$}
+
+\newcommand{\supporterMA}{$support$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{titlepage}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=0.7\textwidth]{img/UzL_Logo.png}
+    \end{figure}
+
+    \begin{center}
+        \fontfamily{phv}\selectfont
+        \vspace*{1.5cm}
+        \Large
+        \begin{onehalfspace}
+            \textbf{\titelMA}
+        \end{onehalfspace}
+        \vspace{0.5cm}
+        \titelMAEnglish\\
+        \vspace{1cm}
+        \normalsize
+        \textbf{Masterarbeit}\\
+        \vspace{0.2cm}
+        im Rahmen des Studiengangs\\
+        \textbf{Medieninformatik}\\
+        der Universität zu Lübeck\\
+        \vspace{1cm}
+        vorgelegt von:\\ \textbf{\authorMA}\\
+        (Matrikelnummer: $matrikel$) \\
+        \vspace{1cm}
+        Ausgegeben und betreut von:\\ \textbf{\examinerMA}\\
+        \vspace{0.5cm}
+        mit Unterstützung von:\\ \textbf{\supporterMA}\\
+        $if(company-support)$
+          \vspace{0.7cm}
+          Die Arbeit ist im Rahmen einer Tätigkeit bei der Firma $company-support$ entstanden.\\
+        $endif$
+        \vspace{0.3cm}
+        Lübeck, \today
+    \end{center}        
+\end{titlepage}
